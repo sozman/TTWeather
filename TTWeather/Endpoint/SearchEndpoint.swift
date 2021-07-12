@@ -11,6 +11,7 @@ import Alamofire
 /// Endpoint for Search
 enum SearchEndpoint {
     case getLocationAutoComplete(request: AutoCompleteRequest)
+    case getLocationWithGeo(request: GeopositionRequest)
 }
 
 // MARK: - Endpoint Protocol
@@ -19,6 +20,8 @@ extension SearchEndpoint: EndpointProtocol {
         switch self {
         case .getLocationAutoComplete(request: _):
             return "locations/v1/cities/autocomplete"
+        case .getLocationWithGeo(request: _):
+            return "locations/v1/cities/geoposition/search"
         }
     }
     
@@ -33,6 +36,8 @@ extension SearchEndpoint: EndpointProtocol {
         switch self {
         case .getLocationAutoComplete(request: let req):
             return req.dictionary
+        case .getLocationWithGeo(request: let request):
+            return request.dictionary
         }
     }
     

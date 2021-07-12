@@ -22,6 +22,8 @@
 		6C3AAB7B269CDFB3002320CF /* SearchEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB7A269CDFB3002320CF /* SearchEndpoint.swift */; };
 		6C3AAB81269CE045002320CF /* AutoCompleteRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB80269CE045002320CF /* AutoCompleteRequest.swift */; };
 		6C3AAB85269CE362002320CF /* AutoCompleteResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB84269CE362002320CF /* AutoCompleteResponse.swift */; };
+		6C3AAB87269CF625002320CF /* GeopositionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB86269CF625002320CF /* GeopositionRequest.swift */; };
+		6C3AAB89269CF8B8002320CF /* GeopositionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB88269CF8B8002320CF /* GeopositionResponse.swift */; };
 		CB15B48B375281B0476C1861 /* Pods_TTWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF4CE82EBF387123667B43FF /* Pods_TTWeather.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +46,8 @@
 		6C3AAB7A269CDFB3002320CF /* SearchEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEndpoint.swift; sourceTree = "<group>"; };
 		6C3AAB80269CE045002320CF /* AutoCompleteRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteRequest.swift; sourceTree = "<group>"; };
 		6C3AAB84269CE362002320CF /* AutoCompleteResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteResponse.swift; sourceTree = "<group>"; };
+		6C3AAB86269CF625002320CF /* GeopositionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeopositionRequest.swift; sourceTree = "<group>"; };
+		6C3AAB88269CF8B8002320CF /* GeopositionResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeopositionResponse.swift; sourceTree = "<group>"; };
 		F1BB4BC8F850AA7C1EE239BA /* Pods-TTWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTWeather.release.xcconfig"; path = "Target Support Files/Pods-TTWeather/Pods-TTWeather.release.xcconfig"; sourceTree = "<group>"; };
 		FF4CE82EBF387123667B43FF /* Pods_TTWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -154,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				6C3AAB80269CE045002320CF /* AutoCompleteRequest.swift */,
+				6C3AAB86269CF625002320CF /* GeopositionRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				6C3AAB84269CE362002320CF /* AutoCompleteResponse.swift */,
+				6C3AAB88269CF8B8002320CF /* GeopositionResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C3AAB6B269CA351002320CF /* EndpointProtocol.swift in Sources */,
+				6C3AAB89269CF8B8002320CF /* GeopositionResponse.swift in Sources */,
 				6C3AAB6D269CA4B2002320CF /* NetworkClient.swift in Sources */,
 				6C3AAB81269CE045002320CF /* AutoCompleteRequest.swift in Sources */,
 				6C3AAB7B269CDFB3002320CF /* SearchEndpoint.swift in Sources */,
@@ -298,6 +305,7 @@
 				6C3AAB76269CDDC5002320CF /* LocationManager.swift in Sources */,
 				6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */,
 				6C3AAB78269CDF32002320CF /* SearchManager.swift in Sources */,
+				6C3AAB87269CF625002320CF /* GeopositionRequest.swift in Sources */,
 				6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */,
 				6C3AAB70269CC246002320CF /* Encodable+Extension.swift in Sources */,
 			);
