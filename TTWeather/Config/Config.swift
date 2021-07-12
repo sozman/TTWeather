@@ -10,7 +10,7 @@ import Foundation
 /// Configration Class
 public class Config {
     /// Base API URL
-    static let BaseAPIURL = "http://dataservice.accuweather.com/api"
+    static let BaseAPIURL = "http://dataservice.accuweather.com/"
     /// API Key
     static let ApiKey = "YOUR_API_KEY"
     /** Request Data Visibility settings

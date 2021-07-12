@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-public typealias Parameters = [String: String]
+public typealias Parameters = [String: Any]
 
 /// Endpoint Protocol for HTTP Request
 public protocol EndpointProtocol {
