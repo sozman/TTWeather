@@ -11,10 +11,11 @@ extension Encodable {
     /// Codable to dictionary for Alamofire Parameter
     var dictionary: [String: Any]? {
         guard let data = try? JSONEncoder().encode(self) else { return nil }
-        return (try? JSONSerialization.jsonObject(with: data, options: .allowFragments))
+        var array =  (try? JSONSerialization.jsonObject(with: data, options: .allowFragments))
             .flatMap {
                 $0 as? [String: Any]
-                
             }
+        array?["apikey"] = Config.ApiKey
+        return array
     }
 }
