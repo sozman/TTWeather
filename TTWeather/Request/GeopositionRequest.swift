@@ -39,9 +39,9 @@ struct GeopositionRequest: Codable {
 /// Locations coordinate model
 struct GeoText {
     /// Latitude
-    let latitude: Int
+    let latitude: String
     /// Longitude
-    let longitude: Int
+    let longitude: String
     
     /// Setup coordinates for the request
     /// - Returns: Text to search for.

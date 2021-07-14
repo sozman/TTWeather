@@ -36,8 +36,8 @@ extension SearchEndpoint: EndpointProtocol {
         switch self {
         case .getLocationAutoComplete(request: let req):
             return req.dictionary
-        case .getLocationWithGeo(request: let request):
-            return request.dictionary
+        case .getLocationWithGeo(request: let req):
+            return req.dictionary
         }
     }
     

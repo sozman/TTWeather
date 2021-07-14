@@ -50,7 +50,7 @@ extension UIViewController {
     /// Get View Controller for next step App Cycle
     /// - Returns: UIViewController Type
     func rotateController(completion: (UIViewController.Type) -> Void) {
-        if !(UserSession.shared.firstTutorial ?? true) {
+        if (UserSession.shared.firstTutorial ?? true) {
             // Tutorial Controller
             UserSession.shared.save(firstTutorial: false)
              completion(TutorialViewController.self)

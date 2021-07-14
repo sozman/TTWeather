@@ -43,4 +43,10 @@ class LocationHelper {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
     }
+    
+    /// Get Current Location
+    /// - Returns: The latitude and longitude associated with a location, specified using the WGS 84 reference frame.
+    func getLocation() -> CLLocationCoordinate2D? {
+        return self.locationManager.location?.coordinate
+    }
 }

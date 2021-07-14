@@ -14,6 +14,8 @@
 		6C217BE2269ECCA20090C853 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE1269ECCA20090C853 /* SearchViewController.swift */; };
 		6C217BE4269ECCB00090C853 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE3269ECCB00090C853 /* SearchViewModel.swift */; };
 		6C217BE8269ED2400090C853 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE7269ED2400090C853 /* Observable.swift */; };
+		6C217BED269EEE4E0090C853 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BEB269EEE4E0090C853 /* LocationCell.swift */; };
+		6C217BEE269EEE4E0090C853 /* LocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217BEC269EEE4E0090C853 /* LocationCell.xib */; };
 		6C27EB23269D8E8000A95CAE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27EB22269D8E8000A95CAE /* LoadingView.swift */; };
 		6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB55269C8969002320CF /* AppDelegate.swift */; };
 		6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB57269C8969002320CF /* SceneDelegate.swift */; };
@@ -46,6 +48,8 @@
 		6C217BE1269ECCA20090C853 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		6C217BE3269ECCB00090C853 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		6C217BE7269ED2400090C853 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		6C217BEB269EEE4E0090C853 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		6C217BEC269EEE4E0090C853 /* LocationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationCell.xib; sourceTree = "<group>"; };
 		6C27EB22269D8E8000A95CAE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6C3AAB52269C8969002320CF /* TTWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3AAB55269C8969002320CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,23 @@
 			path = Observable;
 			sourceTree = "<group>";
 		};
+		6C217BE9269EEE2E0090C853 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6C217BEA269EEE360090C853 /* CurrentLocationCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6C217BEA269EEE360090C853 /* CurrentLocationCell */ = {
+			isa = PBXGroup;
+			children = (
+				6C217BEB269EEE4E0090C853 /* LocationCell.swift */,
+				6C217BEC269EEE4E0090C853 /* LocationCell.xib */,
+			);
+			path = CurrentLocationCell;
+			sourceTree = "<group>";
+		};
 		6C27EB20269D8E6E00A95CAE /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +194,7 @@
 		6C3AAB54269C8969002320CF /* TTWeather */ = {
 			isa = PBXGroup;
 			children = (
+				6C217BE9269EEE2E0090C853 /* Cells */,
 				6C217BE5269ED2310090C853 /* Utils */,
 				6C0D3854269E1DD800ED4AAB /* Helper */,
 				6C27EB20269D8E6E00A95CAE /* CustomView */,
@@ -353,6 +375,7 @@
 				6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */,
 				6C3AAB5F269C896D002320CF /* Assets.xcassets in Resources */,
 				6C217BE0269ECC930090C853 /* Search.xib in Resources */,
+				6C217BEE269EEE4E0090C853 /* LocationCell.xib in Resources */,
 				6C3AAB93269D137F002320CF /* Splash.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +434,7 @@
 				6C3AAB6B269CA351002320CF /* EndpointProtocol.swift in Sources */,
 				6C0D3853269E1B3300ED4AAB /* TutorialViewController.swift in Sources */,
 				6C3AAB89269CF8B8002320CF /* GeopositionResponse.swift in Sources */,
+				6C217BED269EEE4E0090C853 /* LocationCell.swift in Sources */,
 				6C3AAB6D269CA4B2002320CF /* NetworkClient.swift in Sources */,
 				6C3AAB81269CE045002320CF /* AutoCompleteRequest.swift in Sources */,
 				6C27EB23269D8E8000A95CAE /* LoadingView.swift in Sources */,
