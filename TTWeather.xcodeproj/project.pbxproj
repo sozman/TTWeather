@@ -16,6 +16,8 @@
 		6C217BE8269ED2400090C853 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE7269ED2400090C853 /* Observable.swift */; };
 		6C217BED269EEE4E0090C853 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BEB269EEE4E0090C853 /* LocationCell.swift */; };
 		6C217BEE269EEE4E0090C853 /* LocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217BEC269EEE4E0090C853 /* LocationCell.xib */; };
+		6C217BF1269F3FFE0090C853 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BF0269F3FFE0090C853 /* BaseVC.swift */; };
+		6C217BF3269F42BF0090C853 /* BaseVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217BF2269F42BF0090C853 /* BaseVC.xib */; };
 		6C27EB23269D8E8000A95CAE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27EB22269D8E8000A95CAE /* LoadingView.swift */; };
 		6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB55269C8969002320CF /* AppDelegate.swift */; };
 		6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB57269C8969002320CF /* SceneDelegate.swift */; };
@@ -50,6 +52,8 @@
 		6C217BE7269ED2400090C853 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		6C217BEB269EEE4E0090C853 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		6C217BEC269EEE4E0090C853 /* LocationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationCell.xib; sourceTree = "<group>"; };
+		6C217BF0269F3FFE0090C853 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		6C217BF2269F42BF0090C853 /* BaseVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseVC.xib; sourceTree = "<group>"; };
 		6C27EB22269D8E8000A95CAE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6C3AAB52269C8969002320CF /* TTWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3AAB55269C8969002320CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,9 +161,19 @@
 			path = CurrentLocationCell;
 			sourceTree = "<group>";
 		};
+		6C217BEF269F3FF20090C853 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				6C217BF0269F3FFE0090C853 /* BaseVC.swift */,
+				6C217BF2269F42BF0090C853 /* BaseVC.xib */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
 		6C27EB20269D8E6E00A95CAE /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
+				6C217BEF269F3FF20090C853 /* BaseView */,
 				6C27EB21269D8E7300A95CAE /* LoadingView */,
 			);
 			path = CustomView;
@@ -376,6 +390,7 @@
 				6C3AAB5F269C896D002320CF /* Assets.xcassets in Resources */,
 				6C217BE0269ECC930090C853 /* Search.xib in Resources */,
 				6C217BEE269EEE4E0090C853 /* LocationCell.xib in Resources */,
+				6C217BF3269F42BF0090C853 /* BaseVC.xib in Resources */,
 				6C3AAB93269D137F002320CF /* Splash.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +463,7 @@
 				6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */,
 				6C217BE4269ECCB00090C853 /* SearchViewModel.swift in Sources */,
 				6C3AAB78269CDF32002320CF /* SearchManager.swift in Sources */,
+				6C217BF1269F3FFE0090C853 /* BaseVC.swift in Sources */,
 				6C3AAB87269CF625002320CF /* GeopositionRequest.swift in Sources */,
 				6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */,
 				6C3AAB70269CC246002320CF /* Encodable+Extension.swift in Sources */,
