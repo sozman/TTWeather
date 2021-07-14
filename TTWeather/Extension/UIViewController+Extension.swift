@@ -7,6 +7,8 @@
 
 import UIKit
 
+typealias PresentationCompletion = (UIViewController) -> Void
+
 extension UIViewController {
     /// Load Controller from Nib
     /// - Returns: UIViewController
@@ -20,11 +22,13 @@ extension UIViewController {
         return instantiateFromNib(nibName: nibName)
     }
     /// Present Root Controller
-    static func presentSelf(loadFromNib: Bool = false, nibName: String? = nil) {
+    static func presentSelf(loadFromNib: Bool = false, nibName: String? = nil, completion: PresentationCompletion? = nil) {
         guard let windows = UIApplication.shared.windows.first else {
             return
         }
-        windows.rootViewController = loadFromNib ? self.loadFromNib(nibName: nibName) : self.init()
+        let controller = loadFromNib ? self.loadFromNib(nibName: nibName) : self.init()
+        completion?(controller)
+        windows.rootViewController = controller
     }
     
     /// Add Loading View on the Content View

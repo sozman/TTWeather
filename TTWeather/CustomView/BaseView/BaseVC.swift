@@ -6,13 +6,14 @@
 //
 
 import UIKit
+import SnapKit
 
 /// Base View Controller
 open class BaseVC: UIViewController {
     // MARK: - Properties
     
     /// Weather Status
-    open var weatherCondition: WeatherConditions = .thunderstorm {
+    open var weatherCondition: WeatherConditions = .sunny {
         didSet {
             self.setupUI()
         }
@@ -21,16 +22,27 @@ open class BaseVC: UIViewController {
     // MARK: - View Object
     
     /// Background Image View
-    @IBOutlet private weak var backgroundImageView: UIImageView!
+    private lazy var backgroundImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.contentMode = .scaleAspectFill
+        imageView.layer.zPosition = -2
+        return imageView
+    }()
     
     /// Image View for Effect
-    @IBOutlet private weak var effectImageView: UIImageView!
+    private lazy var effectImageView: UIImageView = {
+        let imageView = UIImageView()
+        imageView.contentMode = .scaleAspectFill
+        imageView.layer.zPosition = -1
+        return imageView
+    }()
     
     // MARK: - View Did Load
     
     /// Called after the controller's view is loaded into memory.
     open override func viewDidLoad() {
         super.viewDidLoad()
+        self.setupLayout()
         self.setupUI()
     }
     
@@ -40,7 +52,6 @@ open class BaseVC: UIViewController {
     /// - Parameter animated: animation
     open override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.setupUI()
     }
     
     // MARK: - View Will Disappear
@@ -68,6 +79,18 @@ open class BaseVC: UIViewController {
     }
     
     // MARK: - Setup UI For BaseVC
+    
+    /// Setup Layout
+    private func setupLayout() {
+        view.addSubview(backgroundImageView)
+        backgroundImageView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+        view.addSubview(effectImageView)
+        effectImageView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+    }
     
     /// Setup Background images
     private func setupUI() {
@@ -100,7 +123,6 @@ open class BaseVC: UIViewController {
 
 // MARK: - Weather Conditions
 
-/// Weather Condition
 public enum WeatherConditions {
     case thunderstorm
     case rain
