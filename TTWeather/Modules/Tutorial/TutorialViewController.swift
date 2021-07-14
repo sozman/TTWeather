@@ -33,6 +33,10 @@ class TutorialViewController: UIViewController {
                 if controller is TutorialViewController.Type {
                     // TODO: Alert again permission
                 }
+                // Present Search View Controller
+                else if controller is SearchViewController.Type {
+                    controller.presentSelf(loadFromNib: true, nibName: "Search")
+                }
             }
         }
     }

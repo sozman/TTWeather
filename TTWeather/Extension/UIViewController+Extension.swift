@@ -59,7 +59,7 @@ extension UIViewController {
             completion(UIViewController.self)
         } else {
             // Search Controller
-            completion(UIViewController.self)
+            completion(SearchViewController.self)
         }
         removeLoading()
     }

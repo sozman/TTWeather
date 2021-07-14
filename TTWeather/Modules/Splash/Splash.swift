@@ -18,6 +18,10 @@ class Splash: UIViewController {
             if controller is TutorialViewController.Type {
                 controller.presentSelf(loadFromNib: true, nibName: "Tutorial")
             }
+            // Present Search View Controller
+            else if controller is SearchViewController.Type {
+                controller.presentSelf(loadFromNib: true, nibName: "Search")
+            }
         }
     }
 }

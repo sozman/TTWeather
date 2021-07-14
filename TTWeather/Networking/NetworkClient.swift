@@ -27,7 +27,7 @@ public protocol NetworkClientProtocol {
 /// Network Layer
 public class NetworkClient {
     /// Base URL
-    private var baseURL: String = ""
+    private var baseURL: String = Config.BaseAPIURL
     
     init(
         baseURL: String? = nil

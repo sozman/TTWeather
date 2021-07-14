@@ -10,6 +10,10 @@
 		6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0D3850269E1B2100ED4AAB /* Tutorial.xib */; };
 		6C0D3853269E1B3300ED4AAB /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0D3852269E1B3300ED4AAB /* TutorialViewController.swift */; };
 		6C0D3856269E1DE400ED4AAB /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0D3855269E1DE400ED4AAB /* LocationHelper.swift */; };
+		6C217BE0269ECC930090C853 /* Search.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217BDF269ECC930090C853 /* Search.xib */; };
+		6C217BE2269ECCA20090C853 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE1269ECCA20090C853 /* SearchViewController.swift */; };
+		6C217BE4269ECCB00090C853 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE3269ECCB00090C853 /* SearchViewModel.swift */; };
+		6C217BE8269ED2400090C853 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217BE7269ED2400090C853 /* Observable.swift */; };
 		6C27EB23269D8E8000A95CAE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27EB22269D8E8000A95CAE /* LoadingView.swift */; };
 		6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB55269C8969002320CF /* AppDelegate.swift */; };
 		6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB57269C8969002320CF /* SceneDelegate.swift */; };
@@ -38,6 +42,10 @@
 		6C0D3850269E1B2100ED4AAB /* Tutorial.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tutorial.xib; sourceTree = "<group>"; };
 		6C0D3852269E1B3300ED4AAB /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		6C0D3855269E1DE400ED4AAB /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		6C217BDF269ECC930090C853 /* Search.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Search.xib; sourceTree = "<group>"; };
+		6C217BE1269ECCA20090C853 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6C217BE3269ECCB00090C853 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		6C217BE7269ED2400090C853 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		6C27EB22269D8E8000A95CAE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6C3AAB52269C8969002320CF /* TTWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3AAB55269C8969002320CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +110,32 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		6C217BDE269ECC840090C853 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				6C217BDF269ECC930090C853 /* Search.xib */,
+				6C217BE1269ECCA20090C853 /* SearchViewController.swift */,
+				6C217BE3269ECCB00090C853 /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		6C217BE5269ED2310090C853 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6C217BE6269ED2360090C853 /* Observable */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6C217BE6269ED2360090C853 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				6C217BE7269ED2400090C853 /* Observable.swift */,
+			);
+			path = Observable;
+			sourceTree = "<group>";
+		};
 		6C27EB20269D8E6E00A95CAE /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +173,7 @@
 		6C3AAB54269C8969002320CF /* TTWeather */ = {
 			isa = PBXGroup;
 			children = (
+				6C217BE5269ED2310090C853 /* Utils */,
 				6C0D3854269E1DD800ED4AAB /* Helper */,
 				6C27EB20269D8E6E00A95CAE /* CustomView */,
 				6C3AAB8F269D0FEE002320CF /* UserSession */,
@@ -223,6 +258,7 @@
 		6C3AAB8A269D0F4D002320CF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				6C217BDE269ECC840090C853 /* Search */,
 				6C0D384F269E1B1200ED4AAB /* Tutorial */,
 				6C3AAB8B269D0F55002320CF /* Splash */,
 			);
@@ -316,6 +352,7 @@
 				6C3AAB62269C896D002320CF /* LaunchScreen.storyboard in Resources */,
 				6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */,
 				6C3AAB5F269C896D002320CF /* Assets.xcassets in Resources */,
+				6C217BE0269ECC930090C853 /* Search.xib in Resources */,
 				6C3AAB93269D137F002320CF /* Splash.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C217BE8269ED2400090C853 /* Observable.swift in Sources */,
 				6C0D3856269E1DE400ED4AAB /* LocationHelper.swift in Sources */,
 				6C3AAB6B269CA351002320CF /* EndpointProtocol.swift in Sources */,
 				6C0D3853269E1B3300ED4AAB /* TutorialViewController.swift in Sources */,
@@ -379,10 +417,12 @@
 				6C3AAB95269D15DA002320CF /* UIViewController+Extension.swift in Sources */,
 				6C3AAB8E269D0F6A002320CF /* Splash.swift in Sources */,
 				6C3AAB7B269CDFB3002320CF /* SearchEndpoint.swift in Sources */,
+				6C217BE2269ECCA20090C853 /* SearchViewController.swift in Sources */,
 				6C3AAB73269CCA20002320CF /* Config.swift in Sources */,
 				6C3AAB85269CE362002320CF /* AutoCompleteResponse.swift in Sources */,
 				6C3AAB76269CDDC5002320CF /* LocationManager.swift in Sources */,
 				6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */,
+				6C217BE4269ECCB00090C853 /* SearchViewModel.swift in Sources */,
 				6C3AAB78269CDF32002320CF /* SearchManager.swift in Sources */,
 				6C3AAB87269CF625002320CF /* GeopositionRequest.swift in Sources */,
 				6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */,
