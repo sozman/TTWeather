@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0D3850269E1B2100ED4AAB /* Tutorial.xib */; };
+		6C0D3853269E1B3300ED4AAB /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0D3852269E1B3300ED4AAB /* TutorialViewController.swift */; };
+		6C0D3856269E1DE400ED4AAB /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0D3855269E1DE400ED4AAB /* LocationHelper.swift */; };
 		6C27EB23269D8E8000A95CAE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27EB22269D8E8000A95CAE /* LoadingView.swift */; };
 		6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB55269C8969002320CF /* AppDelegate.swift */; };
 		6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB57269C8969002320CF /* SceneDelegate.swift */; };
@@ -32,6 +35,9 @@
 
 /* Begin PBXFileReference section */
 		43565FD57CDC1E09B13281F9 /* Pods-TTWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTWeather.debug.xcconfig"; path = "Target Support Files/Pods-TTWeather/Pods-TTWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0D3850269E1B2100ED4AAB /* Tutorial.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Tutorial.xib; sourceTree = "<group>"; };
+		6C0D3852269E1B3300ED4AAB /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		6C0D3855269E1DE400ED4AAB /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
 		6C27EB22269D8E8000A95CAE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6C3AAB52269C8969002320CF /* TTWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3AAB55269C8969002320CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,23 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		6C0D384F269E1B1200ED4AAB /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				6C0D3850269E1B2100ED4AAB /* Tutorial.xib */,
+				6C0D3852269E1B3300ED4AAB /* TutorialViewController.swift */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		6C0D3854269E1DD800ED4AAB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6C0D3855269E1DE400ED4AAB /* LocationHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		6C27EB20269D8E6E00A95CAE /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +139,7 @@
 		6C3AAB54269C8969002320CF /* TTWeather */ = {
 			isa = PBXGroup;
 			children = (
+				6C0D3854269E1DD800ED4AAB /* Helper */,
 				6C27EB20269D8E6E00A95CAE /* CustomView */,
 				6C3AAB8F269D0FEE002320CF /* UserSession */,
 				6C3AAB8A269D0F4D002320CF /* Modules */,
@@ -199,6 +223,7 @@
 		6C3AAB8A269D0F4D002320CF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				6C0D384F269E1B1200ED4AAB /* Tutorial */,
 				6C3AAB8B269D0F55002320CF /* Splash */,
 			);
 			path = Modules;
@@ -289,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C3AAB62269C896D002320CF /* LaunchScreen.storyboard in Resources */,
+				6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */,
 				6C3AAB5F269C896D002320CF /* Assets.xcassets in Resources */,
 				6C3AAB93269D137F002320CF /* Splash.xib in Resources */,
 			);
@@ -343,7 +369,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C0D3856269E1DE400ED4AAB /* LocationHelper.swift in Sources */,
 				6C3AAB6B269CA351002320CF /* EndpointProtocol.swift in Sources */,
+				6C0D3853269E1B3300ED4AAB /* TutorialViewController.swift in Sources */,
 				6C3AAB89269CF8B8002320CF /* GeopositionResponse.swift in Sources */,
 				6C3AAB6D269CA4B2002320CF /* NetworkClient.swift in Sources */,
 				6C3AAB81269CE045002320CF /* AutoCompleteRequest.swift in Sources */,

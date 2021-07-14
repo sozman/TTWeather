@@ -10,18 +10,21 @@ import UIKit
 extension UIViewController {
     /// Load Controller from Nib
     /// - Returns: UIViewController
-    static func loadFromNib() -> Self {
-        func instantiateFromNib<T: UIViewController>() -> T {
+    static func loadFromNib(nibName: String? = nil) -> Self {
+        func instantiateFromNib<T: UIViewController>(nibName: String?) -> T {
+            if let nibName = nibName {
+                return T.init(nibName: nibName, bundle: nil)
+            }
             return T.init(nibName: String(describing: T.self), bundle: nil)
         }
-        return instantiateFromNib()
+        return instantiateFromNib(nibName: nibName)
     }
     /// Present Root Controller
-    static func presentSelf(loadFromNib: Bool = false) {
+    static func presentSelf(loadFromNib: Bool = false, nibName: String? = nil) {
         guard let windows = UIApplication.shared.windows.first else {
             return
         }
-        windows.rootViewController = loadFromNib ? self.loadFromNib() : self.init()
+        windows.rootViewController = loadFromNib ? self.loadFromNib(nibName: nibName) : self.init()
     }
     
     /// Add Loading View on the Content View
@@ -43,5 +46,21 @@ extension UIViewController {
        }.forEach { view in
             view.removeFromSuperview()
         }
+    }
+    /// Get View Controller for next step App Cycle
+    /// - Returns: UIViewController Type
+    func rotateController(completion: (UIViewController.Type) -> Void) {
+        if !(UserSession.shared.firstTutorial ?? true) {
+            // Tutorial Controller
+            UserSession.shared.save(firstTutorial: false)
+             completion(TutorialViewController.self)
+        } else if LocationManager.shared.locations.count != 0 {
+            // Main Controller
+            completion(UIViewController.self)
+        } else {
+            // Search Controller
+            completion(UIViewController.self)
+        }
+        removeLoading()
     }
 }
