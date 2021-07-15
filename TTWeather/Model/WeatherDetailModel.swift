@@ -8,7 +8,7 @@
 import Foundation
 
 /// WeatherDetailModel
-struct WeatherDetailModel {
+public struct WeatherDetailModel: Codable {
     /// City Name For Weather Condition
     let cityName: String
     /// Location Key for the API

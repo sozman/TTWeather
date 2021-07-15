@@ -13,7 +13,7 @@ private let userSessionLocationKey = "UserSessionLocationKey"
 /// Location Manager for Pager View
 public class LocationManager {
     /// Locations' Keys
-    public var locations: [String] = [] {
+    public var locations: [WeatherDetailModel] = [] {
         didSet {
             self.save(location: locations)
         }
@@ -35,7 +35,7 @@ public class LocationManager {
         do {
             // Location
             if let location = userDefaults.object(forKey: userSessionLocationKey) as? Data {
-                locations = try JSONDecoder().decode([String].self, from: location)
+                locations = try JSONDecoder().decode([WeatherDetailModel].self, from: location)
             }
         } catch let errorMessage {
             print("\(errorMessage.localizedDescription)")
@@ -44,7 +44,7 @@ public class LocationManager {
     
     /// Save location for homeVC
     /// - Parameter value: Locations key Array
-    private func save(location value: [String]?) {
+    private func save(location value: [WeatherDetailModel]?) {
         // location variable control
         guard let value = value else {
             print("location couldn't find")

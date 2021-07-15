@@ -92,10 +92,11 @@ class SearchViewController: UIViewController {
     /// Save Location on the user session
     /// - Parameter location: GeopositionResponse
     private func saveLocation(location: GeopositionResponse) {
+        let detail = WeatherDetailModel(cityName: location.localizedName, locationKey: location.key)
         if ((!LocationManager.shared.locations.isEmpty) && (self.fromHome)) {
-            LocationManager.shared.locations.append(location.key)
+            LocationManager.shared.locations.append(detail)
         } else if ((!self.fromHome) && LocationManager.shared.locations.isEmpty) {
-            LocationManager.shared.locations.append(location.key)
+            LocationManager.shared.locations.append(detail)
             rotate()
         }
     }
@@ -104,7 +105,8 @@ class SearchViewController: UIViewController {
     /// - Parameter locationSearch: AutoComplete Response
     private func saveLocation(locationSearch: AutoCompleteResponse) {
         SearchManager.shared.lastSearchedLocations.append(locationSearch)
-        LocationManager.shared.locations.append(locationSearch.key)
+        let detail = WeatherDetailModel(cityName: locationSearch.localizedName, locationKey: locationSearch.key)
+        LocationManager.shared.locations.append(detail)
         rotate()
     }
     
