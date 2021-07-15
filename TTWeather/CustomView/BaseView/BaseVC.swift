@@ -19,6 +19,13 @@ open class BaseVC: UIViewController {
         }
     }
     
+    /// Is Day Time
+    open var isDayTime: Bool = true {
+        didSet {
+            self.setupUI()
+        }
+    }
+    
     // MARK: - View Object
     
     /// Background Image View
@@ -116,6 +123,9 @@ open class BaseVC: UIViewController {
             effectImage = UIImage(named: "sunnyEffect") ?? UIImage()
         }
         
+        if !self.isDayTime {
+            backgroundImage = UIImage(named: "night") ?? UIImage()
+        }
         self.backgroundImageView.image = backgroundImage
         self.effectImageView.image = effectImage
     }

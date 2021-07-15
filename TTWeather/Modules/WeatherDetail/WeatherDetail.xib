@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WeatherDetailViewController" customModule="TTWeather" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="Sbw-Hi-Jj4" id="UkR-qR-Ewn"/>
                 <outlet property="view" destination="iN0-l3-epB" id="k3Y-7O-h7U"/>
             </connections>
         </placeholder>
@@ -19,20 +20,22 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m6z-Z8-fWN">
-                    <rect key="frame" x="184" y="433" width="46" height="30"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="46" id="8ET-VI-7My"/>
-                        <constraint firstAttribute="height" constant="30" id="R21-i5-7Al"/>
-                    </constraints>
-                    <state key="normal" title="Button"/>
-                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Sbw-Hi-Jj4">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="Ub8-5U-Qza"/>
+                        <outlet property="delegate" destination="-1" id="UwL-dS-sBa"/>
+                    </connections>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="m6z-Z8-fWN" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fat-A1-qkE"/>
-                <constraint firstItem="m6z-Z8-fWN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="kGT-ct-qrX"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Sbw-Hi-Jj4" secondAttribute="trailing" id="3ps-dV-bSh"/>
+                <constraint firstItem="Sbw-Hi-Jj4" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="RsQ-7s-sXo"/>
+                <constraint firstItem="Sbw-Hi-Jj4" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="kQc-66-LSQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Sbw-Hi-Jj4" secondAttribute="bottom" id="sWd-w1-BMp"/>
             </constraints>
             <point key="canvasLocation" x="101" y="94"/>
         </view>
