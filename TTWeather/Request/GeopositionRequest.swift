@@ -27,7 +27,7 @@ struct GeopositionRequest: Codable {
     init(
         geo: GeoText,
         language: String = "en-us",
-        details: Bool = false,
+        details: Bool = true,
         toplevel: Bool = true) {
         self.text = geo.getText()
         self.language = language
