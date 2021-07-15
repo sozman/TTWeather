@@ -12,9 +12,9 @@ struct ValueModel: Codable {
     /// Rounded value in specified units. May be NULL.
     let value: Double?
     /// Type of unit.
-    let unit: String
+    let unit: String?
     /// Numeric ID associated with the type of unit being displayed.
-    let unitType: Int
+    let unitType: Int?
     
     enum CodingKeys: String, CodingKey {
         case value = "Value"

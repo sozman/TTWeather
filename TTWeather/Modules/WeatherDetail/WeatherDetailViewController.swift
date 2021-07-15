@@ -11,7 +11,7 @@ class WeatherDetailViewController: BaseVC {
     
     var locationKey: String = ""
     
-    private let networkClient = NetworkClient()
+    fileprivate var viewModel = WeatherDetailViewModel()
     
     override var weatherCondition: WeatherConditions {
         get {
@@ -23,15 +23,6 @@ class WeatherDetailViewController: BaseVC {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        weatherCondition = .thunderstorm
-        print("location: \(locationKey)")
-        let req = CurrentRequest(language: "en-us", details: true)
-        networkClient.executeRequest(endpoint: CurrentEndpoint.getCurrent(
-                                        request: req,
-                                        locationKey: self.locationKey)
-                                     , model: CurrentResponse.self) { model, error in
-            print(model)
-            print(error)
-        }
+        print(viewModel.dummyData)
     }
 }

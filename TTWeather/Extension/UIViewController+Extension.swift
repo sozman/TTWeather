@@ -60,7 +60,8 @@ extension UIViewController {
              completion(TutorialViewController.self)
         } else if LocationManager.shared.locations.count != 0 {
             // Main Controller
-            completion(UIViewController.self)
+            // TODO: Dummy for test
+            completion(WeatherDetailViewController.self)
         } else {
             // Search Controller
             completion(SearchViewController.self)

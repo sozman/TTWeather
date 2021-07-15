@@ -18,7 +18,7 @@ struct CurrentResponse: Codable {
     /// Numeric value representing an image that displays the current condition described by WeatherText. May be NULL.
     let weatherIcon: Int?
     /// Local Source Model
-    let localSource: LocalSource
+    let localSource: LocalSource?
     /// Flag indicating the time of day (true=day, false=night)
     let isDayTime: Bool
     /// Temperature Model
@@ -72,9 +72,9 @@ struct CurrentResponse: Codable {
     /// Flag indicating the presence or absence of precipitation. True indicates the presence of precipitation, false indicates the absence of precipitation.
     let hasPrecipitation: Bool
     /// If precipitation is present, the type of precipitation will be returned. Possible values are Rain, Snow, Ice, or Mixed. Null in the absence of precipitation.
-    let precipitationType: String
+    let precipitationType: String?
     /// The relative humidity in the user's home or building.
-    let indoorRelativeHumidiy: Bool
+    let indoorRelativeHumidiy: Int
     
     enum CodingKeys: String, CodingKey {
         case localObservationDateTime = "LocalObservationDateTime"
