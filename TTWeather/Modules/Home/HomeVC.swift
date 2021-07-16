@@ -8,6 +8,12 @@
 import UIKit
 import SnapKit
 
+/// Home View Controller Delegate For Search And Settings Controllers
+protocol HomeVCDelegate: AnyObject {
+    /// Refresh Page
+    func refreshPage()
+}
+
 /// HomeVC
 class HomeVC: UIViewController {
     
@@ -36,6 +42,15 @@ class HomeVC: UIViewController {
         button.setImage(UIImage(systemName: "magnifyingglass"), for: .normal)
         button.tintColor = UIColor.white
         button.addTarget(self, action: #selector(searchButtonPressed(_:)), for: .touchUpInside)
+        return button
+    }()
+    
+    /// Settings Button
+    var settingsButton: UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(systemName: "wrench.and.screwdriver"), for: .normal)
+        button.tintColor = UIColor.white
+        button.addTarget(self, action: #selector(settingsButtonPressed(_:)), for: .touchUpInside)
         return button
     }()
     
@@ -68,6 +83,7 @@ class HomeVC: UIViewController {
         view.addSubview(pageViewController.view)
         view.addSubview(pageControl)
         view.addSubview(searchButton)
+        view.addSubview(settingsButton)
         self.pageViewController.didMove(toParent: self)
         
         pageControl.snp.makeConstraints { make in
@@ -88,11 +104,17 @@ class HomeVC: UIViewController {
             make.top.equalTo(35)
             make.width.height.equalTo(60)
         }
+        
+        settingsButton.snp.makeConstraints { make in
+            make.right.equalTo(-15)
+            make.top.equalTo(35)
+            make.width.height.equalTo(60)
+        }
     }
 
     /// Setup UI
     private func setupUI() {
-        pageViewController.setViewControllers([viewControllers[0]], direction: .forward, animated: true)
+        pageViewController.setViewControllers([viewControllers[0]], direction: .forward, animated: false)
         pageControl.numberOfPages = viewControllers.count
         pageControl.currentPage = 0
         pageControl.tintColor = UIColor.red
@@ -120,6 +142,17 @@ class HomeVC: UIViewController {
         SearchViewController.presentController(loadFromNib: true, nibName: "Search") { vc in
             guard let vc = vc as? SearchViewController else { return }
             vc.fromHome = true
+            vc.delegate = self
+            self.present(vc, animated: true)
+        }
+    }
+    
+    /// Settings Button Pressed Action
+    /// - Parameter sender: Settings Button
+    @objc func settingsButtonPressed(_ sender: UIButton) {
+        SettingsViewController.presentController(loadFromNib: true, nibName: "Settings") { vc in
+            guard let vc = vc as? SettingsViewController else { return }
+            vc.delegate = self
             self.present(vc, animated: true)
         }
     }
@@ -168,4 +201,11 @@ extension HomeVC: UIPageViewControllerDataSource, UIPageViewControllerDelegate {
 
 }
 
-
+// MARK: - Home VC Delegate
+extension HomeVC: HomeVCDelegate {
+    /// Refresh Page
+    func refreshPage() {
+        viewControllers = setupControllers()
+        setupUI()
+    }
+}

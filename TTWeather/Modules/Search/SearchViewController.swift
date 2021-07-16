@@ -15,6 +15,9 @@ class SearchViewController: UIViewController {
     /// Search View Model
     fileprivate var viewModel = SearchViewModel()
     
+    /// Home View Controller Delegate
+    weak var delegate: HomeVCDelegate?
+    
     /// Search from home VC
     public var fromHome: Bool = false
     
@@ -52,6 +55,13 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         registerCell()
         setupBinding()
+    }
+    
+    /// Notifies the view controller that its view was removed from a view hierarchy.
+    /// - Parameter animated: If true, the disappearance of the view was animated.
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        delegate?.refreshPage()
     }
     
     // MARK: - Integration

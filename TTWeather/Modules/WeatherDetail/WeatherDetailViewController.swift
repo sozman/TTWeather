@@ -21,7 +21,14 @@ class WeatherDetailViewController: BaseVC {
     // MARK: - View Object
     
     /// Table View
-    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var tableView: UITableView! {
+        didSet {
+            tableView.dataSource = self
+            tableView.delegate = self
+            tableView.register(UINib(nibName: "TemperatureCell", bundle: nil), forCellReuseIdentifier: "TemperatureCell")
+            tableView.register(UINib(nibName: "InformationCell", bundle: nil), forCellReuseIdentifier: "InformationCell")
+        }
+    }
     
     /// Weather Condition for background effects
     override var weatherCondition: WeatherConditions {
@@ -57,10 +64,6 @@ class WeatherDetailViewController: BaseVC {
     
     /// Setup UI
     private func setupUI() {
-        tableView.dataSource = self
-        tableView.delegate = self
-        tableView.register(UINib(nibName: "TemperatureCell", bundle: nil), forCellReuseIdentifier: "TemperatureCell")
-        tableView.register(UINib(nibName: "InformationCell", bundle: nil), forCellReuseIdentifier: "InformationCell")
         self.tableView.reloadData()
     }
 }

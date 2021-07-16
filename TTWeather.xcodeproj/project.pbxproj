@@ -34,6 +34,8 @@
 		6C217C1626A077A80090C853 /* InformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217C1426A077A80090C853 /* InformationCell.xib */; };
 		6C217C1826A093D20090C853 /* WeatherDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C1726A093D20090C853 /* WeatherDetailModel.swift */; };
 		6C217C1B26A0958E0090C853 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C1A26A0958E0090C853 /* HomeVC.swift */; };
+		6C217C1E26A160400090C853 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C1D26A160400090C853 /* SettingsViewController.swift */; };
+		6C217C2026A163BB0090C853 /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217C1F26A163BB0090C853 /* Settings.xib */; };
 		6C27EB23269D8E8000A95CAE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C27EB22269D8E8000A95CAE /* LoadingView.swift */; };
 		6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB55269C8969002320CF /* AppDelegate.swift */; };
 		6C3AAB58269C8969002320CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C3AAB57269C8969002320CF /* SceneDelegate.swift */; };
@@ -85,6 +87,8 @@
 		6C217C1426A077A80090C853 /* InformationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InformationCell.xib; sourceTree = "<group>"; };
 		6C217C1726A093D20090C853 /* WeatherDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailModel.swift; sourceTree = "<group>"; };
 		6C217C1A26A0958E0090C853 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		6C217C1D26A160400090C853 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6C217C1F26A163BB0090C853 /* Settings.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 		6C27EB22269D8E8000A95CAE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		6C3AAB52269C8969002320CF /* TTWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C3AAB55269C8969002320CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -249,6 +253,15 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		6C217C1C26A160330090C853 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				6C217C1D26A160400090C853 /* SettingsViewController.swift */,
+				6C217C1F26A163BB0090C853 /* Settings.xib */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		6C27EB20269D8E6E00A95CAE /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +392,7 @@
 		6C3AAB8A269D0F4D002320CF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				6C217C1C26A160330090C853 /* Settings */,
 				6C217C1926A095830090C853 /* Home */,
 				6C217BF4269F60FD0090C853 /* WeatherDetail */,
 				6C217BDE269ECC840090C853 /* Search */,
@@ -480,6 +494,7 @@
 			files = (
 				6C217C1126A073FA0090C853 /* TemperatureCell.xib in Resources */,
 				6C3AAB62269C896D002320CF /* LaunchScreen.storyboard in Resources */,
+				6C217C2026A163BB0090C853 /* Settings.xib in Resources */,
 				6C217C0A26A06B070090C853 /* test.json in Resources */,
 				6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */,
 				6C217C1626A077A80090C853 /* InformationCell.xib in Resources */,
@@ -565,6 +580,7 @@
 				6C217C1526A077A80090C853 /* InformationCell.swift in Sources */,
 				6C3AAB73269CCA20002320CF /* Config.swift in Sources */,
 				6C3AAB85269CE362002320CF /* AutoCompleteResponse.swift in Sources */,
+				6C217C1E26A160400090C853 /* SettingsViewController.swift in Sources */,
 				6C3AAB76269CDDC5002320CF /* LocationManager.swift in Sources */,
 				6C3AAB56269C8969002320CF /* AppDelegate.swift in Sources */,
 				6C217BE4269ECCB00090C853 /* SearchViewModel.swift in Sources */,
