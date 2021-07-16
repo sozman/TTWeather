@@ -22,8 +22,7 @@ class Splash: UIViewController {
             else if controller is SearchViewController.Type {
                 controller.presentSelf(loadFromNib: true, nibName: "Search")
             } else {
-                // TODO: Dummy Controller for test
-                controller.presentSelf(loadFromNib: true, nibName: "WeatherDetail")
+                controller.presentSelf()
             }
         }
     }

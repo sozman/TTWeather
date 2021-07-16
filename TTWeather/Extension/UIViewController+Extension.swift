@@ -31,6 +31,12 @@ extension UIViewController {
         windows.rootViewController = controller
     }
     
+    /// Present Controller
+    static func presentController(loadFromNib: Bool = false, nibName: String? = nil, setupBlock: PresentationCompletion? = nil) {
+        let controller = loadFromNib ? self.loadFromNib(nibName: nibName) : self.init()
+        setupBlock?(controller)
+    }
+    
     /// Add Loading View on the Content View
     func showLoading() {
         let loadingView = LoadingView()
@@ -60,8 +66,7 @@ extension UIViewController {
              completion(TutorialViewController.self)
         } else if LocationManager.shared.locations.count != 0 {
             // Main Controller
-            // TODO: Dummy for test
-            completion(WeatherDetailViewController.self)
+            completion(HomeVC.self)
         } else {
             // Search Controller
             completion(SearchViewController.self)

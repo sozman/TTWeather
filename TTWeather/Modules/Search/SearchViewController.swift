@@ -115,8 +115,7 @@ class SearchViewController: UIViewController {
         if self.fromHome {
             self.dismiss(animated: true, completion: nil)
         } else {
-            // TODO: Go HomeVC
-            print("Go Home VC")
+            HomeVC.presentSelf()
         }
     }
 }
