@@ -9,6 +9,8 @@ import UIKit
 
 class TutorialViewController: UIViewController {
     
+    // MARK: - View Object
+    
     /// Access Permission Button Outlet
     @IBOutlet private weak var allowAccessButtonOutlet: UIButton! {
         didSet {
@@ -16,11 +18,16 @@ class TutorialViewController: UIViewController {
         }
     }
     
+    // MARK: - View Did Load
+    
     /// Called after the controller's view is loaded into memory.
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+    // MARK: - Supported Function
+    
+    /// Rotate View Controller
     private func rotate() {
         self.rotateController { controller in
             if controller is TutorialViewController.Type {
@@ -32,6 +39,8 @@ class TutorialViewController: UIViewController {
             }
         }
     }
+    
+    // MARK: - Button Action
     
     /// Access Permission Button Action
     /// - Parameter sender: Access Permission Button Outlet

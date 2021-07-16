@@ -7,6 +7,8 @@
 
 import UIKit
 
+// CopyRight: From StackOverFlow
+
 @IBDesignable
 class LoadingView : UIView {
 

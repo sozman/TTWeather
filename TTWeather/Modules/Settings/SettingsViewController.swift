@@ -13,6 +13,8 @@ class SettingsViewController: UIViewController {
     /// Home VC Delegate
     weak var delegate: HomeVCDelegate?
     
+    // MARK: - View Object
+    
     /// TableView
     @IBOutlet weak var tableView: UITableView! {
         didSet {
@@ -21,11 +23,15 @@ class SettingsViewController: UIViewController {
         }
     }
     
+    // MARK: - View Did Load
+    
     /// Called after the controller's view is loaded into memory.
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
+    
+    // MARK: - View Did Disappear
     
     /// Notifies the view controller that its view was removed from a view hierarchy.
     /// - Parameter animated: If true, the disappearance of the view was animated.
@@ -33,6 +39,8 @@ class SettingsViewController: UIViewController {
         super.viewDidDisappear(animated)
         delegate?.refreshPage()
     }
+    
+    // MARK: - Setup UI For Settings View controller
     
     /// Setup UI
     private func setupUI() {

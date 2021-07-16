@@ -66,9 +66,10 @@ class HomeVC: UIViewController {
         setupUI()
     }
     
+    // MARK: - View Did Appear
+    
     /// Notifies the view controller that its view was added to a view hierarchy.
     /// - Parameter animated: animated If true, the view was added to the window using an animation.
-
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         viewControllers = setupControllers()

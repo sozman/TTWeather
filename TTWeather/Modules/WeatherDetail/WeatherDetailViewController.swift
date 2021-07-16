@@ -48,6 +48,8 @@ class WeatherDetailViewController: BaseVC {
         }
     }
     
+    // MARK: - View Did Load
+    
     /// Called after the controller's view is loaded into memory.
     override func viewDidLoad() {
         super.viewDidLoad()

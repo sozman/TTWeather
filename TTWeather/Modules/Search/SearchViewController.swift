@@ -57,6 +57,8 @@ class SearchViewController: UIViewController {
         setupBinding()
     }
     
+    // MARK: - View Did Disappear
+    
     /// Notifies the view controller that its view was removed from a view hierarchy.
     /// - Parameter animated: If true, the disappearance of the view was animated.
     override func viewDidDisappear(_ animated: Bool) {
