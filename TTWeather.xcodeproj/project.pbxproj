@@ -26,7 +26,6 @@
 		6C217C0426A019670090C853 /* CurrentRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C0326A019670090C853 /* CurrentRequest.swift */; };
 		6C217C0626A019A30090C853 /* CurrentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C0526A019A30090C853 /* CurrentResponse.swift */; };
 		6C217C0826A025190090C853 /* CurrentEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C0726A025190090C853 /* CurrentEndpoint.swift */; };
-		6C217C0A26A06B070090C853 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C217C0926A06B070090C853 /* test.json */; };
 		6C217C0C26A06DE30090C853 /* WeatherDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C0B26A06DE30090C853 /* WeatherDetailViewModel.swift */; };
 		6C217C1026A073FA0090C853 /* TemperatureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C217C0E26A073FA0090C853 /* TemperatureCell.swift */; };
 		6C217C1126A073FA0090C853 /* TemperatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C217C0F26A073FA0090C853 /* TemperatureCell.xib */; };
@@ -79,7 +78,6 @@
 		6C217C0326A019670090C853 /* CurrentRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentRequest.swift; sourceTree = "<group>"; };
 		6C217C0526A019A30090C853 /* CurrentResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentResponse.swift; sourceTree = "<group>"; };
 		6C217C0726A025190090C853 /* CurrentEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentEndpoint.swift; sourceTree = "<group>"; };
-		6C217C0926A06B070090C853 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 		6C217C0B26A06DE30090C853 /* WeatherDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewModel.swift; sourceTree = "<group>"; };
 		6C217C0E26A073FA0090C853 /* TemperatureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureCell.swift; sourceTree = "<group>"; };
 		6C217C0F26A073FA0090C853 /* TemperatureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TemperatureCell.xib; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 			children = (
 				6C217BF5269F612C0090C853 /* WeatherDetailViewController.swift */,
 				6C217BF7269F65370090C853 /* WeatherDetail.xib */,
-				6C217C0926A06B070090C853 /* test.json */,
 				6C217C0B26A06DE30090C853 /* WeatherDetailViewModel.swift */,
 			);
 			path = WeatherDetail;
@@ -495,7 +492,6 @@
 				6C217C1126A073FA0090C853 /* TemperatureCell.xib in Resources */,
 				6C3AAB62269C896D002320CF /* LaunchScreen.storyboard in Resources */,
 				6C217C2026A163BB0090C853 /* Settings.xib in Resources */,
-				6C217C0A26A06B070090C853 /* test.json in Resources */,
 				6C0D3851269E1B2100ED4AAB /* Tutorial.xib in Resources */,
 				6C217C1626A077A80090C853 /* InformationCell.xib in Resources */,
 				6C3AAB5F269C896D002320CF /* Assets.xcassets in Resources */,

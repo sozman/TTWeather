@@ -8,36 +8,42 @@
 import Foundation
 
 class WeatherDetailViewModel {
+    // MARK: - Local Properties
     
-    var dummyData: [CurrentResponse] = []
+    /// Network Request Maker
+    private let networkClient = NetworkClient()
     
-    init() {
-        setupJSON()
-    }
-    
-    func setupJSON() {
-        let jsonData = readLocalJSONFile(forName: "test")
-        if let data = jsonData {
-            do {
-                    let decodedData = try JSONDecoder().decode([CurrentResponse].self, from: data)
-                    print(decodedData)
-                dummyData = decodedData
-                } catch {
-                    print("error: \(error)")
-                }
-        }
-    }
-    
-    func readLocalJSONFile(forName name: String) -> Data? {
-        do {
-            if let filePath = Bundle.main.path(forResource: name, ofType: "json") {
-                let fileUrl = URL(fileURLWithPath: filePath)
-                let data = try Data(contentsOf: fileUrl)
-                return data
+    // MARK: - Input
+    /// Weather Detail Model
+    var model: WeatherDetailModel? {
+        didSet {
+            DispatchQueue.main.async {
+                self.getResult()
             }
-        } catch {
-            print("error: \(error)")
         }
-        return nil
+    }
+    
+    // MARK: - Output
+    /// Is Loading
+    var isLoading: Observable<Bool> = Observable(true)
+    /// Result
+    var result: Observable<[CurrentResponse]> = Observable([])
+    
+    // MARK: - Supported Functions
+    
+    /// Get Result Current Weather Detail
+    private func getResult() {
+        let request = CurrentRequest()
+        networkClient.executeRequest(
+            endpoint: CurrentEndpoint.getCurrent(request: request, locationKey: model?.locationKey),
+            model: [CurrentResponse].self) {[weak self] result, error in
+            guard let self = self else { return }
+            if let result = result {
+                self.result.value = result
+            } else {
+                print(error?.localizedDescription ?? "")
+            }
+            self.isLoading.value = false
+        }
     }
 }

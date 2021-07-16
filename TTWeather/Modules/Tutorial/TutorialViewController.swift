@@ -21,6 +21,18 @@ class TutorialViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    private func rotate() {
+        self.rotateController { controller in
+            if controller is TutorialViewController.Type {
+                // TODO: Alert again permission
+            }
+            // Present Search View Controller
+            else if controller is SearchViewController.Type {
+                controller.presentSelf(loadFromNib: true, nibName: "Search")
+            }
+        }
+    }
+    
     /// Access Permission Button Action
     /// - Parameter sender: Access Permission Button Outlet
     @IBAction private func allowAccessButtonAction(_ sender: UIButton) {
@@ -28,16 +40,9 @@ class TutorialViewController: UIViewController {
         if !LocationHelper.shared.checkLocationPermission() {
             // Request permission
             LocationHelper.shared.permissionRequest()
+            rotate()
         } else {
-            self.rotateController { controller in
-                if controller is TutorialViewController.Type {
-                    // TODO: Alert again permission
-                }
-                // Present Search View Controller
-                else if controller is SearchViewController.Type {
-                    controller.presentSelf(loadFromNib: true, nibName: "Search")
-                }
-            }
+            rotate()
         }
     }
 }

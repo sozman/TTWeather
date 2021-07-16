@@ -59,12 +59,17 @@ class WeatherDetailViewController: BaseVC {
     
     /// Binding variables where is on the view model
     private func setupBinding() {
-        // TODO: - View Model Binding
+        viewModel.model = self.model
+        viewModel.isLoading.bind { _ in
+            self.setupUI()
+        }
     }
     
     /// Setup UI
     private func setupUI() {
-        self.tableView.reloadData()
+        if !viewModel.isLoading.value {
+            self.tableView.reloadData()
+        }
     }
 }
 
@@ -86,7 +91,7 @@ extension WeatherDetailViewController: UITableViewDataSource {
     ///   - indexPath: An index path locating a row in tableView.
     /// - Returns: An object inheriting from UITableViewCell that the table view can use for the specified row. UIKit raises an assertion if you return nil.
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let data = viewModel.dummyData.first
+        let data = viewModel.result.value.first
         if indexPath.row == 0 {
             guard let cell = tableView.dequeueReusableCell(
                 withIdentifier: "TemperatureCell",
@@ -94,7 +99,7 @@ extension WeatherDetailViewController: UITableViewDataSource {
             ) as? TemperatureCell else { return UITableViewCell() }
             
             cell.loadView(
-                cityName: "istanbul",
+                cityName: model?.cityName ?? "",
                 weatherStatus: data?.weatherText ?? "",
                 icon: data?.weatherIcon,
                 temperature: data?.temperature.metric.value,

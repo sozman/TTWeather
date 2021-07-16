@@ -150,6 +150,7 @@ extension SearchViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
+            guard viewModel.yourLocation.value != nil else { return 0 }
             return 1
         case 1:
             return viewModel.lastSearch.value.count
@@ -241,7 +242,7 @@ extension SearchViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         switch section {
         case 0:
-            if !(self.viewModel.yourLocation.value == nil) {
+            if self.viewModel.yourLocation.value == nil {
                 return 0
             } else {
                 return 30
