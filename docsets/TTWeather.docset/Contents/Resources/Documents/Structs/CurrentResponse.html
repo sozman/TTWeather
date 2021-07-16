@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CurrentResponse Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/CurrentResponse" class="dashAnchor"></a>
+    <a title="CurrentResponse Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">TTWeather 1.0 Docs</a> (57% documented)</p>
+        <p class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">TTWeather Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CurrentResponse Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseVC.html">BaseVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Config.html">Config</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeVC.html">HomeVC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InformationCell.html">InformationCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoadingView.html">LoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoadingView/Pose.html">– Pose</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationCell.html">LocationCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationHelper.html">LocationHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationHelper/Static.html">– Static</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationManager.html">LocationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LocationManager/Static.html">– Static</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NetworkClient.html">NetworkClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Observable.html">Observable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SceneDelegate.html">SceneDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchManager.html">SearchManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchManager/Static.html">– Static</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchViewController.html">SearchViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SearchViewModel.html">SearchViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SettingsViewController.html">SettingsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Splash.html">Splash</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TemperatureCell.html">TemperatureCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TutorialViewController.html">TutorialViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserSession.html">UserSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserSession/Static.html">– Static</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherDetailViewController.html">WeatherDetailViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/WeatherDetailViewModel.html">WeatherDetailViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global%20Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:9TTWeather31userSessionFirstTutorialFormKey33_CB5EEC04E9E07BB923F2C11D63150561LLSSvp">userSessionFirstTutorialFormKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:9TTWeather22userSessionLocationKey33_C89B9C769203F592FCC5518EBB7CBF4CLLSSvp">userSessionLocationKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global%20Variables.html#/s:9TTWeather20userSessionSearchKey33_B0D3371CB9FB2185656B439831CB63CBLLSSvp">userSessionSearchKey</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/CurrentEndpoint.html">CurrentEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LocationType.html">LocationType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SearchEndpoint.html">SearchEndpoint</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/WeatherConditions.html">WeatherConditions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Encodable.html">Encodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/EndpointProtocol.html">EndpointProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/HomeVCDelegate.html">HomeVCDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NetworkClientProtocol.html">NetworkClientProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/AdminisitrativeArea.html">AdminisitrativeArea</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AdminisitrativeArea/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AirAndPollen.html">AirAndPollen</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AirAndPollen/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AutoCompleteRequest.html">AutoCompleteRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AutoCompleteRequest/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AutoCompleteResponse.html">AutoCompleteResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/AutoCompleteResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Country.html">Country</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Country/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CurrentRequest.html">CurrentRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CurrentResponse.html">CurrentResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CurrentResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DMAModel.html">DMAModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DMAModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastDay.html">DailyForecastDay</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastDay/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastModel.html">DailyForecastModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastNight.html">DailyForecastNight</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastNight/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastsModel.html">DailyForecastsModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastsModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastsResponse.html">DailyForecastsResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyForecastsResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyMoonModel.html">DailyMoonModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailyMoonModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailySunModel.html">DailySunModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DailySunModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DayModel.html">DayModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DayModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DegreeDaySummary.html">DegreeDaySummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DegreeDaySummary/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailSourcesModel.html">DetailSourcesModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailSourcesModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailsModel.html">DetailsModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/DetailsModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Direction.html">Direction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Direction/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Elevation.html">Elevation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Elevation/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ForecastRequest.html">ForecastRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeoPositionElevation.html">GeoPositionElevation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeoPositionElevation/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeoPositionModel.html">GeoPositionModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeoPositionModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeoText.html">GeoText</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeopositionRequest.html">GeopositionRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeopositionResponse.html">GeopositionResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/GeopositionResponse/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HeadlineModel.html">HeadlineModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/HeadlineModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalSource.html">LocalSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LocalSource/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NightModel.html">NightModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NightModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParentCityModel.html">ParentCityModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ParentCityModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PrecipitationSummary.html">PrecipitationSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PrecipitationSummary/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PressureTendency.html">PressureTendency</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/PressureTendency/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RealFeelTemperature.html">RealFeelTemperature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RealFeelTemperature/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RealFeelTemperatureShade.html">RealFeelTemperatureShade</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RealFeelTemperatureShade/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegionModel.html">RegionModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegionModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SupplementalAdminAreasModel.html">SupplementalAdminAreasModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SupplementalAdminAreasModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Temperature.html">Temperature</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Temperature/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TemperatureModel.html">TemperatureModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TemperatureModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TemperatureSummary.html">TemperatureSummary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TemperatureSummary/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TimeZoneModel.html">TimeZoneModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TimeZoneModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ValueModel.html">ValueModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ValueModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WeatherDetailModel.html">WeatherDetailModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WindGustModel.html">WindGustModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WindGustModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WindModel.html">WindModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/WindModel/CodingKeys.html">– CodingKeys</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9TTWeather10Parametersa">Parameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:9TTWeather22PresentationCompletiona">PresentationCompletion</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CurrentResponse</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">CurrentResponse</span> <span class="p">:</span> <span class="kt">Codable</span></code></pre>
+
+                </div>
+              </div>
+            <p>Current Response Model</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV24localObservationDateTimeSSvp"></a>
+                    <a name="//apple_ref/swift/Property/localObservationDateTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV24localObservationDateTimeSSvp">localObservationDateTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>DateTime of the current observation, displayed in ISO8601 format.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">localObservationDateTime</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV9epochTimeSivp"></a>
+                    <a name="//apple_ref/swift/Property/epochTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV9epochTimeSivp">epochTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>DateTime of the current observation, displayed as the number of seconds that have elapsed since January 1, 1970 (midnight UTC/GMT).</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">epochTime</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV11weatherTextSSvp"></a>
+                    <a name="//apple_ref/swift/Property/weatherText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV11weatherTextSSvp">weatherText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Phrase description of the current weather condition. Displayed in the language set with language code in URL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">weatherText</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV11weatherIconSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/weatherIcon" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV11weatherIconSiSgvp">weatherIcon</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Numeric value representing an image that displays the current condition described by WeatherText. May be NULL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">weatherIcon</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV11localSourceAA05LocalE0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/localSource" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV11localSourceAA05LocalE0VSgvp">localSource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Local Source Model</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">localSource</span><span class="p">:</span> <span class="kt"><a href="../Structs/LocalSource.html">LocalSource</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV9isDayTimeSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isDayTime" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV9isDayTimeSbvp">isDayTime</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Flag indicating the time of day (true=day, false=night)</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">isDayTime</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV11temperatureAA11TemperatureVvp"></a>
+                    <a name="//apple_ref/swift/Property/temperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV11temperatureAA11TemperatureVvp">temperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Temperature Model</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">temperature</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV19realFeelTemperatureAA0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/realFeelTemperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV19realFeelTemperatureAA0F0Vvp">realFeelTemperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Patented AccuWeather RealFeel Temperature. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">realFeelTemperature</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV24realFeelTemperatureShadeAA0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/realFeelTemperatureShade" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV24realFeelTemperatureShadeAA0F0Vvp">realFeelTemperatureShade</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Patented AccuWeather RealFeel Temperature in the shade. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">realFeelTemperatureShade</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV16relativeHumiditySiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/relativeHumidity" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV16relativeHumiditySiSgvp">relativeHumidity</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Relative humidity. May be NULL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">relativeHumidity</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV8dewPointAA11TemperatureVvp"></a>
+                    <a name="//apple_ref/swift/Property/dewPoint" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV8dewPointAA11TemperatureVvp">dewPoint</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dew Point</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">dewPoint</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV4windAA9WindModelVvp"></a>
+                    <a name="//apple_ref/swift/Property/wind" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV4windAA9WindModelVvp">wind</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Wind</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">wind</span><span class="p">:</span> <span class="kt"><a href="../Structs/WindModel.html">WindModel</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV8windGustAA04WindE5ModelVvp"></a>
+                    <a name="//apple_ref/swift/Property/windGust" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV8windGustAA04WindE5ModelVvp">windGust</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>WindGust</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">windGust</span><span class="p">:</span> <span class="kt"><a href="../Structs/WindGustModel.html">WindGustModel</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV7uvIndexSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/uvIndex" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV7uvIndexSiSgvp">uvIndex</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Measure of the strength of the ultraviolet radiation from the sun. May be NULL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">uvIndex</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV11uvIndexTextSSvp"></a>
+                    <a name="//apple_ref/swift/Property/uvIndexText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV11uvIndexTextSSvp">uvIndexText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Text associated with the UVIndex.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">uvIndexText</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV10visibilityAA11TemperatureVvp"></a>
+                    <a name="//apple_ref/swift/Property/visibility" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV10visibilityAA11TemperatureVvp">visibility</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Visibility</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">visibility</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV24obstructionsToVisibilitySSvp"></a>
+                    <a name="//apple_ref/swift/Property/obstructionsToVisibility" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV24obstructionsToVisibilitySSvp">obstructionsToVisibility</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cause of limited visibility.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">obstructionsToVisibility</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV10cloudCoverSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/cloudCover" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV10cloudCoverSiSgvp">cloudCover</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Number representing the percentage of the sky that is covered by clouds. May be NULL.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">cloudCover</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV7ceilingAA11TemperatureVvp"></a>
+                    <a name="//apple_ref/swift/Property/ceiling" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV7ceilingAA11TemperatureVvp">ceiling</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Cloud ceiling. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">ceiling</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV8pressureAA11TemperatureVvp"></a>
+                    <a name="//apple_ref/swift/Property/pressure" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV8pressureAA11TemperatureVvp">pressure</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Atmospheric pressure. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">pressure</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV16pressureTendencyAA08PressureE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/pressureTendency" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV16pressureTendencyAA08PressureE0Vvp">pressureTendency</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Pressure Tendency</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">pressureTendency</span><span class="p">:</span> <span class="kt"><a href="../Structs/PressureTendency.html">PressureTendency</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV30past24HourTemperatureDepartureAA0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/past24HourTemperatureDeparture" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV30past24HourTemperatureDepartureAA0F0Vvp">past24HourTemperatureDeparture</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Departure from the temperature observed 24 hours ago. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">past24HourTemperatureDeparture</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV19apparentTemperatureAA0E0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/apparentTemperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV19apparentTemperatureAA0E0Vvp">apparentTemperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perceived outdoor temperature caused by the combination of air temperature, relative humidity, and wind speed. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">apparentTemperature</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV20windChillTemperatureAA0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/windChillTemperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV20windChillTemperatureAA0F0Vvp">windChillTemperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Perceived air temperature on exposed skin due to wind. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">windChillTemperature</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV18wetBulbTemperatureAA0F0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/wetBulbTemperature" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV18wetBulbTemperatureAA0F0Vvp">wetBulbTemperature</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The temperature to which air may be cooled by evaporating water into it at constant pressure until it reaches saturation. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">wetBulbTemperature</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV9precip1hrAA11TemperatureVvp"></a>
+                    <a name="//apple_ref/swift/Property/precip1hr" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV9precip1hrAA11TemperatureVvp">precip1hr</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Amount of precipitation (liquid water equivalent) that has fallen in the past hour. Contains Metric and Imperial Values.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">precip1hr</span><span class="p">:</span> <span class="kt"><a href="../Structs/Temperature.html">Temperature</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV20precipitationSummaryAA013PrecipitationE0Vvp"></a>
+                    <a name="//apple_ref/swift/Property/precipitationSummary" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV20precipitationSummaryAA013PrecipitationE0Vvp">precipitationSummary</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Precipitation Summary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">precipitationSummary</span><span class="p">:</span> <span class="kt"><a href="../Structs/PrecipitationSummary.html">PrecipitationSummary</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV17temperatureSummayAA18TemperatureSummaryVvp"></a>
+                    <a name="//apple_ref/swift/Property/temperatureSummay" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV17temperatureSummayAA18TemperatureSummaryVvp">temperatureSummay</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Temperature Summary</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">temperatureSummay</span><span class="p">:</span> <span class="kt"><a href="../Structs/TemperatureSummary.html">TemperatureSummary</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV10mobileLinkSSvp"></a>
+                    <a name="//apple_ref/swift/Property/mobileLink" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV10mobileLinkSSvp">mobileLink</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Link to current conditions for the requested location on AccuWeather`s mobile site.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">mobileLink</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV4linkSSvp"></a>
+                    <a name="//apple_ref/swift/Property/link" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV4linkSSvp">link</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Link to current conditions for the requested location on AccuWeather`s web site.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">link</span><span class="p">:</span> <span class="kt">String</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV16hasPrecipitationSbvp"></a>
+                    <a name="//apple_ref/swift/Property/hasPrecipitation" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV16hasPrecipitationSbvp">hasPrecipitation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Flag indicating the presence or absence of precipitation. True indicates the presence of precipitation, false indicates the absence of precipitation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">hasPrecipitation</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV17precipitationTypeSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/precipitationType" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV17precipitationTypeSSSgvp">precipitationType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If precipitation is present, the type of precipitation will be returned. Possible values are Rain, Snow, Ice, or Mixed. Null in the absence of precipitation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">precipitationType</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV21indoorRelativeHumidiySivp"></a>
+                    <a name="//apple_ref/swift/Property/indoorRelativeHumidiy" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV21indoorRelativeHumidiySivp">indoorRelativeHumidiy</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The relative humidity in the user&rsquo;s home or building.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">let</span> <span class="nv">indoorRelativeHumidiy</span><span class="p">:</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9TTWeather15CurrentResponseV10CodingKeysO"></a>
+                    <a name="//apple_ref/swift/Enum/CodingKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9TTWeather15CurrentResponseV10CodingKeysO">CodingKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="../Structs/CurrentResponse/CodingKeys.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">enum</span> <span class="kt">CodingKeys</span> <span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CodingKey</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>Copyright © 2021 Sinan Ozman. All rights reserved.</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.7</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

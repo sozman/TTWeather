@@ -1,0 +1,2476 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/sinanozman/TTWeather/EndpointProtocol.swift",
+      "line": 11,
+      "symbol": "Parameters",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Cells/CurrentLocationCell/LocationCell.swift",
+      "line": 64,
+      "symbol": "LocationType.currentLocation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Cells/CurrentLocationCell/LocationCell.swift",
+      "line": 65,
+      "symbol": "LocationType.savedLocation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Cells/CurrentLocationCell/LocationCell.swift",
+      "line": 66,
+      "symbol": "LocationType.findLocation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Cells/InformationCell/InformationCell.swift",
+      "line": 10,
+      "symbol": "InformationCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/AppDelegate.swift",
+      "line": 11,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/AppDelegate.swift",
+      "line": 15,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.application(_:configurationForConnecting:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/AppDelegate.swift",
+      "line": 28,
+      "symbol": "AppDelegate.application(_:didDiscardSceneSessions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 10,
+      "symbol": "SceneDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 12,
+      "symbol": "SceneDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 15,
+      "symbol": "SceneDelegate.scene(_:willConnectTo:options:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 26,
+      "symbol": "SceneDelegate.sceneDidDisconnect(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 33,
+      "symbol": "SceneDelegate.sceneDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 38,
+      "symbol": "SceneDelegate.sceneWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 43,
+      "symbol": "SceneDelegate.sceneWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Config/SceneDelegate.swift",
+      "line": 48,
+      "symbol": "SceneDelegate.sceneDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/BaseView/BaseVC.swift",
+      "line": 136,
+      "symbol": "WeatherConditions",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/BaseView/BaseVC.swift",
+      "line": 137,
+      "symbol": "WeatherConditions.thunderstorm",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/BaseView/BaseVC.swift",
+      "line": 138,
+      "symbol": "WeatherConditions.rain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/BaseView/BaseVC.swift",
+      "line": 139,
+      "symbol": "WeatherConditions.snow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/BaseView/BaseVC.swift",
+      "line": 140,
+      "symbol": "WeatherConditions.ice",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/BaseView/BaseVC.swift",
+      "line": 141,
+      "symbol": "WeatherConditions.sunny",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 13,
+      "symbol": "LoadingView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 15,
+      "symbol": "LoadingView.layer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 21,
+      "symbol": "LoadingView.layerClass",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 25,
+      "symbol": "LoadingView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 34,
+      "symbol": "LoadingView.didMoveToWindow()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 38,
+      "symbol": "LoadingView.setPath()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 42,
+      "symbol": "LoadingView.Pose",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 43,
+      "symbol": "LoadingView.Pose.secondsSincePriorPose",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 44,
+      "symbol": "LoadingView.Pose.start",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 45,
+      "symbol": "LoadingView.Pose.length",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 46,
+      "symbol": "LoadingView.Pose.init(_:_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 53,
+      "symbol": "LoadingView.poses",
+      "symbol_kind": "source.lang.swift.decl.var.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 68,
+      "symbol": "LoadingView.animate()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 96,
+      "symbol": "LoadingView.animateKeyPath(keyPath:duration:times:values:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/CustomView/LoadingView/LoadingView.swift",
+      "line": 106,
+      "symbol": "LoadingView.animateStrokeHueWithDuration(duration:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Endpoint/CurrentEndpoint.swift",
+      "line": 13,
+      "symbol": "CurrentEndpoint.getCurrent(request:locationKey:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Endpoint/SearchEndpoint.swift",
+      "line": 13,
+      "symbol": "SearchEndpoint.getLocationAutoComplete(request:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Endpoint/SearchEndpoint.swift",
+      "line": 14,
+      "symbol": "SearchEndpoint.getLocationWithGeo(request:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Extension/UIViewController+Extension.swift",
+      "line": 10,
+      "symbol": "PresentationCompletion",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Extension/UIViewController+Extension.swift",
+      "line": 16,
+      "symbol": "UIViewController.loadFromNib(nibName:).instantiateFromNib(nibName:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Helper/LocationHelper.swift",
+      "line": 12,
+      "symbol": "LocationHelper",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Helper/LocationHelper.swift",
+      "line": 18,
+      "symbol": "LocationHelper.Static",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Helper/LocationHelper.swift",
+      "line": 19,
+      "symbol": "LocationHelper.Static.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Manager/LocationManager.swift",
+      "line": 24,
+      "symbol": "LocationManager.Static",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Manager/LocationManager.swift",
+      "line": 25,
+      "symbol": "LocationManager.Static.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Manager/SearchManager.swift",
+      "line": 26,
+      "symbol": "SearchManager.Static",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Manager/SearchManager.swift",
+      "line": 27,
+      "symbol": "SearchManager.Static.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Model/ValueModel.swift",
+      "line": 19,
+      "symbol": "ValueModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Model/ValueModel.swift",
+      "line": 20,
+      "symbol": "ValueModel.CodingKeys.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Model/ValueModel.swift",
+      "line": 21,
+      "symbol": "ValueModel.CodingKeys.unit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Model/ValueModel.swift",
+      "line": 22,
+      "symbol": "ValueModel.CodingKeys.unitType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/Search/SearchViewModel.swift",
+      "line": 36,
+      "symbol": "SearchViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/Settings/SettingsViewController.swift",
+      "line": 10,
+      "symbol": "SettingsViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/Settings/SettingsViewController.swift",
+      "line": 52,
+      "symbol": "SettingsViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/Settings/SettingsViewController.swift",
+      "line": 75,
+      "symbol": "SettingsViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/Splash/Splash.swift",
+      "line": 10,
+      "symbol": "Splash",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/Tutorial/TutorialViewController.swift",
+      "line": 10,
+      "symbol": "TutorialViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Modules/WeatherDetail/WeatherDetailViewModel.swift",
+      "line": 10,
+      "symbol": "WeatherDetailViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Networking/NetworkClient.swift",
+      "line": 32,
+      "symbol": "NetworkClient.init(baseURL:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Request/AutoCompleteRequest.swift",
+      "line": 17,
+      "symbol": "AutoCompleteRequest.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Request/AutoCompleteRequest.swift",
+      "line": 18,
+      "symbol": "AutoCompleteRequest.CodingKeys.text",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Request/AutoCompleteRequest.swift",
+      "line": 19,
+      "symbol": "AutoCompleteRequest.CodingKeys.language",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 10,
+      "symbol": "AutoCompleteResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 26,
+      "symbol": "AutoCompleteResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 27,
+      "symbol": "AutoCompleteResponse.CodingKeys.version",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 28,
+      "symbol": "AutoCompleteResponse.CodingKeys.key",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 29,
+      "symbol": "AutoCompleteResponse.CodingKeys.type",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 30,
+      "symbol": "AutoCompleteResponse.CodingKeys.rank",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 31,
+      "symbol": "AutoCompleteResponse.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 32,
+      "symbol": "AutoCompleteResponse.CodingKeys.country",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 33,
+      "symbol": "AutoCompleteResponse.CodingKeys.administrativeArea",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 44,
+      "symbol": "Country.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 45,
+      "symbol": "Country.CodingKeys.countryID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 46,
+      "symbol": "Country.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 57,
+      "symbol": "AdminisitrativeArea.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 58,
+      "symbol": "AdminisitrativeArea.CodingKeys.administrativeID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/AutoCompleteResponse.swift",
+      "line": 59,
+      "symbol": "AdminisitrativeArea.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 79,
+      "symbol": "CurrentResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 80,
+      "symbol": "CurrentResponse.CodingKeys.localObservationDateTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 81,
+      "symbol": "CurrentResponse.CodingKeys.epochTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 82,
+      "symbol": "CurrentResponse.CodingKeys.weatherText",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 83,
+      "symbol": "CurrentResponse.CodingKeys.weatherIcon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 84,
+      "symbol": "CurrentResponse.CodingKeys.localSource",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 85,
+      "symbol": "CurrentResponse.CodingKeys.isDayTime",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 86,
+      "symbol": "CurrentResponse.CodingKeys.temperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 87,
+      "symbol": "CurrentResponse.CodingKeys.realFeelTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 88,
+      "symbol": "CurrentResponse.CodingKeys.realFeelTemperatureShade",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 89,
+      "symbol": "CurrentResponse.CodingKeys.relativeHumidity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 90,
+      "symbol": "CurrentResponse.CodingKeys.dewPoint",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 91,
+      "symbol": "CurrentResponse.CodingKeys.wind",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 92,
+      "symbol": "CurrentResponse.CodingKeys.windGust",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 93,
+      "symbol": "CurrentResponse.CodingKeys.uvIndex",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 94,
+      "symbol": "CurrentResponse.CodingKeys.uvIndexText",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 95,
+      "symbol": "CurrentResponse.CodingKeys.visibility",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 96,
+      "symbol": "CurrentResponse.CodingKeys.obstructionsToVisibility",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 97,
+      "symbol": "CurrentResponse.CodingKeys.cloudCover",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 98,
+      "symbol": "CurrentResponse.CodingKeys.ceiling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 99,
+      "symbol": "CurrentResponse.CodingKeys.pressure",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 100,
+      "symbol": "CurrentResponse.CodingKeys.pressureTendency",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 101,
+      "symbol": "CurrentResponse.CodingKeys.past24HourTemperatureDeparture",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 102,
+      "symbol": "CurrentResponse.CodingKeys.apparentTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 103,
+      "symbol": "CurrentResponse.CodingKeys.windChillTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 104,
+      "symbol": "CurrentResponse.CodingKeys.wetBulbTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 105,
+      "symbol": "CurrentResponse.CodingKeys.precip1hr",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 106,
+      "symbol": "CurrentResponse.CodingKeys.precipitationSummary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 107,
+      "symbol": "CurrentResponse.CodingKeys.temperatureSummay",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 108,
+      "symbol": "CurrentResponse.CodingKeys.mobileLink",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 109,
+      "symbol": "CurrentResponse.CodingKeys.link",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 110,
+      "symbol": "CurrentResponse.CodingKeys.hasPrecipitation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 111,
+      "symbol": "CurrentResponse.CodingKeys.precipitationType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 112,
+      "symbol": "CurrentResponse.CodingKeys.indoorRelativeHumidiy",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 123,
+      "symbol": "Temperature.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 124,
+      "symbol": "Temperature.CodingKeys.metric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 125,
+      "symbol": "Temperature.CodingKeys.imperial",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 136,
+      "symbol": "PressureTendency.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 137,
+      "symbol": "PressureTendency.CodingKeys.localizedText",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 138,
+      "symbol": "PressureTendency.CodingKeys.code",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 161,
+      "symbol": "PrecipitationSummary.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 162,
+      "symbol": "PrecipitationSummary.CodingKeys.precipitation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 163,
+      "symbol": "PrecipitationSummary.CodingKeys.pastHour",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 164,
+      "symbol": "PrecipitationSummary.CodingKeys.past3Hours",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 165,
+      "symbol": "PrecipitationSummary.CodingKeys.past6Hours",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 166,
+      "symbol": "PrecipitationSummary.CodingKeys.past9Hours",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 167,
+      "symbol": "PrecipitationSummary.CodingKeys.past12Hours",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 168,
+      "symbol": "PrecipitationSummary.CodingKeys.past18Hours",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 169,
+      "symbol": "PrecipitationSummary.CodingKeys.past24Hours",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 182,
+      "symbol": "TemperatureSummary.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 183,
+      "symbol": "TemperatureSummary.CodingKeys.past6HourRange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 184,
+      "symbol": "TemperatureSummary.CodingKeys.past12HourRange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/CurrentResponse.swift",
+      "line": 185,
+      "symbol": "TemperatureSummary.CodingKeys.past24HourRange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 19,
+      "symbol": "DailyForecastsResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 20,
+      "symbol": "DailyForecastsResponse.CodingKeys.headLine",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 21,
+      "symbol": "DailyForecastsResponse.CodingKeys.dailyForecasts",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 22,
+      "symbol": "DailyForecastsResponse.CodingKeys.dailyForecast",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 47,
+      "symbol": "HeadlineModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 48,
+      "symbol": "HeadlineModel.CodingKeys.effectiveDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 49,
+      "symbol": "HeadlineModel.CodingKeys.effectiveEpochDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 50,
+      "symbol": "HeadlineModel.CodingKeys.severity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 51,
+      "symbol": "HeadlineModel.CodingKeys.text",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 52,
+      "symbol": "HeadlineModel.CodingKeys.category",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 53,
+      "symbol": "HeadlineModel.CodingKeys.endDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 54,
+      "symbol": "HeadlineModel.CodingKeys.endEpochDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 55,
+      "symbol": "HeadlineModel.CodingKeys.mobileLink",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 56,
+      "symbol": "HeadlineModel.CodingKeys.link",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 91,
+      "symbol": "DailyForecastsModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 92,
+      "symbol": "DailyForecastsModel.CodingKeys.epochDate",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 93,
+      "symbol": "DailyForecastsModel.CodingKeys.dailySunModel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 94,
+      "symbol": "DailyForecastsModel.CodingKeys.dailyMoonModel",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 95,
+      "symbol": "DailyForecastsModel.CodingKeys.temperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 96,
+      "symbol": "DailyForecastsModel.CodingKeys.realFeelTemperature",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 97,
+      "symbol": "DailyForecastsModel.CodingKeys.realFeelTemperatureShade",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 98,
+      "symbol": "DailyForecastsModel.CodingKeys.hoursOfSun",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 99,
+      "symbol": "DailyForecastsModel.CodingKeys.degreeDaySummary",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 100,
+      "symbol": "DailyForecastsModel.CodingKeys.airAndPollen",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 101,
+      "symbol": "DailyForecastsModel.CodingKeys.day",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 102,
+      "symbol": "DailyForecastsModel.CodingKeys.night",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 103,
+      "symbol": "DailyForecastsModel.CodingKeys.sources",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 104,
+      "symbol": "DailyForecastsModel.CodingKeys.mobileLink",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 105,
+      "symbol": "DailyForecastsModel.CodingKeys.link",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 120,
+      "symbol": "DailySunModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 121,
+      "symbol": "DailySunModel.CodingKeys.rise",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 122,
+      "symbol": "DailySunModel.CodingKeys.epochRise",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 123,
+      "symbol": "DailySunModel.CodingKeys.set",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 124,
+      "symbol": "DailySunModel.CodingKeys.epochSet",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 143,
+      "symbol": "DailyMoonModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 144,
+      "symbol": "DailyMoonModel.CodingKeys.rise",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 145,
+      "symbol": "DailyMoonModel.CodingKeys.epochRise",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 146,
+      "symbol": "DailyMoonModel.CodingKeys.set",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 147,
+      "symbol": "DailyMoonModel.CodingKeys.epochSet",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 148,
+      "symbol": "DailyMoonModel.CodingKeys.phase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 149,
+      "symbol": "DailyMoonModel.CodingKeys.age",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 160,
+      "symbol": "TemperatureModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 161,
+      "symbol": "TemperatureModel.CodingKeys.minimum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 162,
+      "symbol": "TemperatureModel.CodingKeys.maximum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 173,
+      "symbol": "RealFeelTemperature.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 174,
+      "symbol": "RealFeelTemperature.CodingKeys.minimum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 175,
+      "symbol": "RealFeelTemperature.CodingKeys.maximum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 186,
+      "symbol": "RealFeelTemperatureShade.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 187,
+      "symbol": "RealFeelTemperatureShade.CodingKeys.minimum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 188,
+      "symbol": "RealFeelTemperatureShade.CodingKeys.maximum",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 199,
+      "symbol": "DegreeDaySummary.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 200,
+      "symbol": "DegreeDaySummary.CodingKeys.heating",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 201,
+      "symbol": "DegreeDaySummary.CodingKeys.cooling",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 218,
+      "symbol": "AirAndPollen.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 219,
+      "symbol": "AirAndPollen.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 220,
+      "symbol": "AirAndPollen.CodingKeys.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 221,
+      "symbol": "AirAndPollen.CodingKeys.category",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 222,
+      "symbol": "AirAndPollen.CodingKeys.categoryValue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 223,
+      "symbol": "AirAndPollen.CodingKeys.type",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 272,
+      "symbol": "DayModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 273,
+      "symbol": "DayModel.CodingKeys.icon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 274,
+      "symbol": "DayModel.CodingKeys.iconPhrase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 275,
+      "symbol": "DayModel.CodingKeys.localSource",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 276,
+      "symbol": "DayModel.CodingKeys.shortPhrase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 277,
+      "symbol": "DayModel.CodingKeys.longPhrase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 278,
+      "symbol": "DayModel.CodingKeys.precipitationProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 279,
+      "symbol": "DayModel.CodingKeys.thunderstormProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 280,
+      "symbol": "DayModel.CodingKeys.rainProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 281,
+      "symbol": "DayModel.CodingKeys.snowProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 282,
+      "symbol": "DayModel.CodingKeys.iceProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 283,
+      "symbol": "DayModel.CodingKeys.wind",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 284,
+      "symbol": "DayModel.CodingKeys.windGust",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 285,
+      "symbol": "DayModel.CodingKeys.totalLiquit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 286,
+      "symbol": "DayModel.CodingKeys.rain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 287,
+      "symbol": "DayModel.CodingKeys.snow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 288,
+      "symbol": "DayModel.CodingKeys.ice",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 289,
+      "symbol": "DayModel.CodingKeys.hoursOfPrecipitation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 290,
+      "symbol": "DayModel.CodingKeys.hoursOfRain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 291,
+      "symbol": "DayModel.CodingKeys.hoursOfSnow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 292,
+      "symbol": "DayModel.CodingKeys.hoursOfIce",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 293,
+      "symbol": "DayModel.CodingKeys.cloudCover",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 342,
+      "symbol": "NightModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 343,
+      "symbol": "NightModel.CodingKeys.icon",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 344,
+      "symbol": "NightModel.CodingKeys.iconPhrase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 345,
+      "symbol": "NightModel.CodingKeys.localSource",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 346,
+      "symbol": "NightModel.CodingKeys.shortPhrase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 347,
+      "symbol": "NightModel.CodingKeys.longPhrase",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 348,
+      "symbol": "NightModel.CodingKeys.precipitationProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 349,
+      "symbol": "NightModel.CodingKeys.thunderstormProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 350,
+      "symbol": "NightModel.CodingKeys.rainProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 351,
+      "symbol": "NightModel.CodingKeys.snowProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 352,
+      "symbol": "NightModel.CodingKeys.iceProbability",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 353,
+      "symbol": "NightModel.CodingKeys.wind",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 354,
+      "symbol": "NightModel.CodingKeys.windGust",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 355,
+      "symbol": "NightModel.CodingKeys.totalLiquit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 356,
+      "symbol": "NightModel.CodingKeys.rain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 357,
+      "symbol": "NightModel.CodingKeys.snow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 358,
+      "symbol": "NightModel.CodingKeys.ice",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 359,
+      "symbol": "NightModel.CodingKeys.hoursOfPrecipitation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 360,
+      "symbol": "NightModel.CodingKeys.hoursOfRain",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 361,
+      "symbol": "NightModel.CodingKeys.hoursOfSnow",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 362,
+      "symbol": "NightModel.CodingKeys.hoursOfIce",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 363,
+      "symbol": "NightModel.CodingKeys.cloudCover",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 376,
+      "symbol": "LocalSource.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 377,
+      "symbol": "LocalSource.CodingKeys.id",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 378,
+      "symbol": "LocalSource.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 379,
+      "symbol": "LocalSource.CodingKeys.weatherCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 390,
+      "symbol": "WindModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 391,
+      "symbol": "WindModel.CodingKeys.speed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 392,
+      "symbol": "WindModel.CodingKeys.direction",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 405,
+      "symbol": "Direction.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 406,
+      "symbol": "Direction.CodingKeys.degrees",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 407,
+      "symbol": "Direction.CodingKeys.localized",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 408,
+      "symbol": "Direction.CodingKeys.english",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 417,
+      "symbol": "WindGustModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 418,
+      "symbol": "WindGustModel.CodingKeys.speed",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 429,
+      "symbol": "DailyForecastModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 430,
+      "symbol": "DailyForecastModel.CodingKeys.day",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 431,
+      "symbol": "DailyForecastModel.CodingKeys.night",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 444,
+      "symbol": "DailyForecastDay.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 445,
+      "symbol": "DailyForecastDay.CodingKeys.hasPrecipitation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 446,
+      "symbol": "DailyForecastDay.CodingKeys.precipitationType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 447,
+      "symbol": "DailyForecastDay.CodingKeys.precipitationIntensity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 460,
+      "symbol": "DailyForecastNight.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 461,
+      "symbol": "DailyForecastNight.CodingKeys.hasPrecipitation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 462,
+      "symbol": "DailyForecastNight.CodingKeys.precipitationType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/DailyForecastsResponse.swift",
+      "line": 463,
+      "symbol": "DailyForecastNight.CodingKeys.precipitationIntensity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 10,
+      "symbol": "GeopositionResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 46,
+      "symbol": "GeopositionResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 47,
+      "symbol": "GeopositionResponse.CodingKeys.version",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 48,
+      "symbol": "GeopositionResponse.CodingKeys.key",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 49,
+      "symbol": "GeopositionResponse.CodingKeys.type",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 50,
+      "symbol": "GeopositionResponse.CodingKeys.rank",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 51,
+      "symbol": "GeopositionResponse.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 52,
+      "symbol": "GeopositionResponse.CodingKeys.englishName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 53,
+      "symbol": "GeopositionResponse.CodingKeys.primaryPostalCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 54,
+      "symbol": "GeopositionResponse.CodingKeys.region",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 55,
+      "symbol": "GeopositionResponse.CodingKeys.country",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 56,
+      "symbol": "GeopositionResponse.CodingKeys.administrativeArea",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 57,
+      "symbol": "GeopositionResponse.CodingKeys.timeZone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 58,
+      "symbol": "GeopositionResponse.CodingKeys.geoPosition",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 59,
+      "symbol": "GeopositionResponse.CodingKeys.isAlias",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 60,
+      "symbol": "GeopositionResponse.CodingKeys.parentCity",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 61,
+      "symbol": "GeopositionResponse.CodingKeys.supplementalAdminAreas",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 62,
+      "symbol": "GeopositionResponse.CodingKeys.dataSets",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 63,
+      "symbol": "GeopositionResponse.CodingKeys.details",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 67,
+      "symbol": "RegionModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 75,
+      "symbol": "RegionModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 76,
+      "symbol": "RegionModel.CodingKeys.regionID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 77,
+      "symbol": "RegionModel.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 78,
+      "symbol": "RegionModel.CodingKeys.englishName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 82,
+      "symbol": "TimeZoneModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 94,
+      "symbol": "TimeZoneModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 95,
+      "symbol": "TimeZoneModel.CodingKeys.code",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 96,
+      "symbol": "TimeZoneModel.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 97,
+      "symbol": "TimeZoneModel.CodingKeys.gmtOffset",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 98,
+      "symbol": "TimeZoneModel.CodingKeys.isDaylightSaving",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 99,
+      "symbol": "TimeZoneModel.CodingKeys.nextOffsetChange",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 103,
+      "symbol": "GeoPositionModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 111,
+      "symbol": "GeoPositionModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 112,
+      "symbol": "GeoPositionModel.CodingKeys.latitude",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 113,
+      "symbol": "GeoPositionModel.CodingKeys.longitude",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 114,
+      "symbol": "GeoPositionModel.CodingKeys.elevation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 118,
+      "symbol": "GeoPositionElevation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 124,
+      "symbol": "GeoPositionElevation.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 125,
+      "symbol": "GeoPositionElevation.CodingKeys.metric",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 126,
+      "symbol": "GeoPositionElevation.CodingKeys.imperial",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 130,
+      "symbol": "Elevation",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 138,
+      "symbol": "Elevation.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 139,
+      "symbol": "Elevation.CodingKeys.value",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 140,
+      "symbol": "Elevation.CodingKeys.unit",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 141,
+      "symbol": "Elevation.CodingKeys.unitType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 145,
+      "symbol": "ParentCityModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 153,
+      "symbol": "ParentCityModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 154,
+      "symbol": "ParentCityModel.CodingKeys.key",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 155,
+      "symbol": "ParentCityModel.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 156,
+      "symbol": "ParentCityModel.CodingKeys.englishName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 160,
+      "symbol": "SupplementalAdminAreasModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 168,
+      "symbol": "SupplementalAdminAreasModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 169,
+      "symbol": "SupplementalAdminAreasModel.CodingKeys.level",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 170,
+      "symbol": "SupplementalAdminAreasModel.CodingKeys.localizedName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 171,
+      "symbol": "SupplementalAdminAreasModel.CodingKeys.englishName",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 175,
+      "symbol": "DetailsModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 225,
+      "symbol": "DetailsModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 226,
+      "symbol": "DetailsModel.CodingKeys.key",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 227,
+      "symbol": "DetailsModel.CodingKeys.stationCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 228,
+      "symbol": "DetailsModel.CodingKeys.stationGmtOffset",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 229,
+      "symbol": "DetailsModel.CodingKeys.bandMap",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 230,
+      "symbol": "DetailsModel.CodingKeys.climo",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 231,
+      "symbol": "DetailsModel.CodingKeys.localRadar",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 232,
+      "symbol": "DetailsModel.CodingKeys.mediaRegion",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 233,
+      "symbol": "DetailsModel.CodingKeys.metar",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 234,
+      "symbol": "DetailsModel.CodingKeys.nxMetro",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 235,
+      "symbol": "DetailsModel.CodingKeys.nxState",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 236,
+      "symbol": "DetailsModel.CodingKeys.population",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 237,
+      "symbol": "DetailsModel.CodingKeys.primaryWarningCountyCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 238,
+      "symbol": "DetailsModel.CodingKeys.primaryWarningZoneCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 239,
+      "symbol": "DetailsModel.CodingKeys.satellite",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 240,
+      "symbol": "DetailsModel.CodingKeys.synoptic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 241,
+      "symbol": "DetailsModel.CodingKeys.marineStation",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 242,
+      "symbol": "DetailsModel.CodingKeys.marineStationGMTOffset",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 243,
+      "symbol": "DetailsModel.CodingKeys.videoCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 244,
+      "symbol": "DetailsModel.CodingKeys.partnerID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 245,
+      "symbol": "DetailsModel.CodingKeys.dma",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 246,
+      "symbol": "DetailsModel.CodingKeys.sources",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 247,
+      "symbol": "DetailsModel.CodingKeys.canonicalPostalCode",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 248,
+      "symbol": "DetailsModel.CodingKeys.canonicalLocationKey",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 249,
+      "symbol": "DetailsModel.CodingKeys.locationStem",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 253,
+      "symbol": "DMAModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 259,
+      "symbol": "DMAModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 260,
+      "symbol": "DMAModel.CodingKeys.dmaID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 261,
+      "symbol": "DMAModel.CodingKeys.name",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 265,
+      "symbol": "DetailSourcesModel",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 273,
+      "symbol": "DetailSourcesModel.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 274,
+      "symbol": "DetailSourcesModel.CodingKeys.dataType",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 275,
+      "symbol": "DetailSourcesModel.CodingKeys.source",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/Response/GeopositionResponse.swift",
+      "line": 276,
+      "symbol": "DetailSourcesModel.CodingKeys.sourceID",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/UserSession/UserSession.swift",
+      "line": 15,
+      "symbol": "UserSession",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/UserSession/UserSession.swift",
+      "line": 20,
+      "symbol": "UserSession.Static",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/sinanozman/TTWeather/TTWeather/UserSession/UserSession.swift",
+      "line": 21,
+      "symbol": "UserSession.Static.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/sinanozman/TTWeather"
+}
