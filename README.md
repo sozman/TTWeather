@@ -1,4 +1,4 @@
-# IMDB-Clone
+# TTWeather
 [![Swift](https://img.shields.io/badge/Swift-5-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-12.4-blue.svg)](https://developer.apple.com/xcode)
 [![Platform](https://img.shields.io/badge/platforms-iOS%20%7C%20-green.svg)](https://github.com/sozman/instagram-clone-swiftUI.git)
@@ -41,5 +41,5 @@ You can find cities with search bar and see weather status.
 Sinan Özman, sinanozman@icloud.com
 
 ## License
-IMDB-Clone is available under the Apache License, see LICENSE for more information.
+TTWeather is available under the Apache License, see LICENSE for more information.
 
